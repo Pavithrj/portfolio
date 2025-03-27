@@ -6,7 +6,7 @@ const Navbar = () => {
 
     return (
         <header className="bg-gray-800 p-4 fixed w-full top-0 shadow-md z-50">
-            <nav className="mx-auto flex justify-between items-center px-4 md:px-8">
+            <nav className="mx-auto flex justify-between items-center px-4 md:px-8 w-full xl:w-[1250px]">
                 <h1 className="text-lg md:text-xl font-bold text-white flex gap-3 items-center">
                     <img src={PavithrJainLogo} alt="Portfolio Logo" className="w-16 h-16" />
 
