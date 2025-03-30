@@ -1,70 +1,38 @@
+import HeroPic from './../../assets/hero-pic.png';
 
 const Hero = () => {
     return (
-        <section className="h-screen flex flex-col items-center justify-center bg-gradient-to-r from-blue-500 to-purple-600 text-center">
-            <h1 className="text-5xl font-bold text-white">Hi, I'm [Your Name]</h1>
-            <p className="text-xl text-gray-200 mt-4">Web Developer | React Enthusiast</p>
-            <a href="#projects" className="mt-6 px-6 py-3 bg-white text-blue-600 font-semibold rounded-lg hover:bg-gray-100">View My Work</a>
+        <section className="relative flex flex-col items-center justify-center h-screen p-4 overflow-hidden text-center text-white lg:px-0 bg-gradient-to-b from-gray-900 to-gray-800">
+            <div className="absolute w-56 h-56 bg-blue-500 rounded-full top-1/4 left-1/4 sm:w-72 sm:h-72 opacity-20 blur-3xl"></div>
+            <div className="absolute w-56 h-56 bg-purple-500 rounded-full bottom-1/4 right-1/4 sm:w-72 sm:h-72 opacity-20 blur-3xl"></div>
+
+            <div className="flex flex-col items-center gap-8 justify-between w-full mx-auto max-w-[1250px] lg:flex-row">
+                <div className="flex flex-col gap-4 w-full lg:w-[60%] mx-auto">
+                    <h1 className="font-sans text-3xl font-extrabold leading-tight tracking-wide duration-500 sm:text-4xl md:text-5xl lg:text-6xl animate-fade-in">
+                        Hi, I'm <span className="text-blue-500">Pavithr Jain</span>
+                    </h1>
+
+                    <p className="max-w-2xl mx-auto text-base text-gray-300 duration-500 md:text-lg lg:text-lg animate-fade-in-delay">
+                        Building robust and dynamic web applications as a <span className="font-bold text-blue-400">MERN Stack Developer</span>.
+                    </p>
+
+                    <div className="flex flex-row justify-center gap-4 sm:gap-6 animate-fade-in-delay">
+                        <a href="#projects" className="p-3 text-sm font-semibold text-white transition-transform duration-300 transform rounded-lg shadow-xl sm:px-6 sm:text-lg bg-gradient-to-r from-blue-500 to-purple-500 hover:scale-105 hover:shadow-2xl">
+                            View Projects
+                        </a>
+
+                        <a href="#contact" className="p-3 text-sm font-semibold text-white transition-transform duration-300 transform border-2 border-blue-500 rounded-lg shadow-xl sm:px-6 sm:text-lg hover:bg-blue-500 hover:scale-105 hover:shadow-2xl">
+                            Contact Me
+                        </a>
+                    </div>
+                </div>
+
+                <div className="flex items-center justify-center w-full mx-auto lg:w-[40%]">
+                    <img src={HeroPic} alt="Profile" className="w-40 h-40 duration-500 rounded-full shadow-lg sm:h-64 sm:w-64 ring-4 ring-blue-500/50 hover:scale-110 animate-fade-in" />
+                </div>
+            </div>
         </section>
     )
 };
 
 export default Hero;
-
-// Responsive
-// const Hero = () => {
-//     return (
-//         <section className="h-screen flex flex-col items-center justify-center bg-gradient-to-r from-blue-500 to-purple-600 text-center px-4 md:px-8">
-//             <header>
-//                 <h1 className="text-3xl md:text-5xl font-bold text-white">Hi, I'm [Your Name]</h1>
-//                 <p className="text-lg md:text-xl text-gray-200 mt-4">Web Developer | React Enthusiast</p>
-//             </header>
-//             <a href="#projects" className="mt-6 px-4 md:px-6 py-2 md:py-3 bg-white text-blue-600 font-semibold rounded-lg hover:bg-gray-100">View My Work</a>
-//         </section>
-//     )
-// };
-
-// export default Hero;
-
-
-
-
-// const Hero = () => {
-//     return (
-//         <section className="h-screen flex flex-col items-center justify-center text-center px-6 md:px-12 bg-gradient-to-b from-gray-900 to-gray-800 text-white">
-//             {/* Animated Intro Text */}
-//             <h1 className="text-4xl md:text-6xl font-bold mb-4 animate-fade-in">
-//                 Hi, I'm <span className="text-blue-500">Pavithr Jain</span> 👋
-//             </h1>
-
-//             <p className="text-lg md:text-xl text-gray-300 mb-6 max-w-2xl animate-fade-in-delay">
-//                 A passionate <span className="text-blue-400">Web Developer</span> crafting beautiful & functional websites with ReactJS and TailwindCSS.
-//             </p>
-
-//             {/* CTA Buttons */}
-//             <div className="flex gap-4 animate-fade-in-delay">
-//                 <a
-//                     href="#projects"
-//                     className="bg-blue-500 text-white px-6 py-3 rounded-lg text-lg font-semibold shadow-lg hover:bg-blue-600 transition-transform transform hover:scale-105 duration-300"
-//                 >
-//                     View Projects 🚀
-//                 </a>
-//                 <a
-//                     href="#contact"
-//                     className="border-2 border-blue-500 text-white px-6 py-3 rounded-lg text-lg font-semibold shadow-lg hover:bg-blue-500 transition-transform transform hover:scale-105 duration-300"
-//                 >
-//                     Contact Me 📩
-//                 </a>
-//             </div>
-
-//             {/* Floating Avatar */}
-//             <img
-//                 src="/assets/PavithrJainLogo.png" // Make sure the path is correct
-//                 alt="Profile"
-//                 className="w-32 h-32 md:w-40 md:h-40 rounded-full mt-10 shadow-lg animate-bounce-slow"
-//             />
-//         </section>
-//     )
-// };
-
-// export default Hero;

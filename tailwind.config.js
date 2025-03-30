@@ -1,3 +1,4 @@
+import { fontFamily } from 'tailwindcss/defaultTheme';
 /** @type {import('tailwindcss').Config} */
 
 export default {
@@ -15,7 +16,10 @@ export default {
             },
             animation: {
                 fadeIn: "fadeIn 0.8s ease-out forwards"
-            }
+            },
+            fontFamily: {
+                sans: ["var(--font-sora)", ...fontFamily.sans]
+            },
         }
     },
     plugins: [],
