@@ -1,21 +1,24 @@
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Navbar from './components/layout/Navbar';
+import Hero from './components/sections/Hero';
+import About from './components/sections/About';
+import Projects from './components/sections/Projects';
+import Contact from './components/sections/Contact';
+// import Footer from './components/layout/Footer';
 
 function App() {
-  return (
-    <div className="bg-gray-900 text-white font-sans h-full min-h-screen">
-      <Navbar />
-      {/* <Hero /> */}
-      {/* <About /> */}
-      {/* <Projects /> */}
-      {/* <Contact /> */}
-      {/* <Footer /> */}
-    </div>
-  );
-}
+    // const sections = [Hero, About, Projects, Contact];
+
+    return (
+        <div className="h-full min-h-screen font-sans text-white bg-gray-900">
+            <Navbar />
+
+            {/* {sections.map((Section, index) => (
+                <Section key={index} />
+            ))} */}
+
+            {/* <Footer /> */}
+        </div>
+    )
+};
 
 export default App;
