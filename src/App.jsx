@@ -1,13 +1,13 @@
 import Navbar from './components/layout/Navbar';
-import Hero from './components/sections/Hero';
+import Hero from './components/sections/Home';
 import About from './components/sections/About';
 import Projects from './components/sections/Projects';
 import Contact from './components/sections/Contact';
 import Footer from './components/layout/Footer';
 
 function App() {
-    const sections = [Hero];
-    // const sections = [About, Projects, Contact];
+    const sections = [Hero, About];
+    // const sections = [Projects, Contact];
 
     return (
         <div className="h-full min-h-screen text-white bg-gray-900">

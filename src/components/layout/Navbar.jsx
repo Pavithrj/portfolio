@@ -6,6 +6,16 @@ import PavithrJainLogo from './../../assets/PavithrJainLogo.png';
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
+    const handleScroll = (id) => {
+        const section = document.getElementById(id);
+
+        if (section) {
+            section.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+
+        setMenuOpen(false);
+    };
+
     useEffect(() => {
         const handleResize = () => window.innerWidth >= 768 && setMenuOpen(false);
 
@@ -16,12 +26,12 @@ const Navbar = () => {
 
     return (
         <header className="fixed top-0 z-50 w-full p-4 bg-gray-800 shadow-md">
-            <nav className="mx-auto flex justify-between items-center w-full xl:w-[1250px]">
+            <nav className="mx-auto flex justify-between items-center w-full xl:w-[1300px]">
                 <img src={PavithrJainLogo} alt="Portfolio Logo" className="w-10 h-10 md:w-16 md:h-16" />
 
                 <div className="hidden gap-8 text-2xl text-gray-300 md:flex">
                     {["Home", "About", "Projects", "Contact"].map((item) => (
-                        <a key={item} href={`#${item.toLowerCase()}`} className="hover:text-white" onClick={() => setMenuOpen(false)}>
+                        <a key={item} href={`#${item.toLowerCase()}`} onClick={(e) => { e.preventDefault(); handleScroll(item.toLowerCase()); }} className="hover:text-white">
                             {item}
                         </a>
                     ))}
@@ -39,7 +49,7 @@ const Navbar = () => {
 
                 <div className="flex flex-col items-center justify-center h-full gap-6 text-2xl text-gray-300">
                     {["Home", "About", "Projects", "Contact"].map((item) => (
-                        <a key={item} href={`#${item.toLowerCase()}`} onClick={() => setMenuOpen(false)}>
+                        <a key={item} href={`#${item.toLowerCase()}`} onClick={(e) => { e.preventDefault(); handleScroll(item.toLowerCase()); }} className="hover:text-white">
                             {item}
                         </a>
                     ))}
