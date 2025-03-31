@@ -18,11 +18,11 @@ const Hero = () => {
 
                     <div className="flex flex-row justify-center gap-4 sm:gap-6 animate-fade-in-delay">
                         <a href="#projects" className="p-3 text-sm font-semibold text-white transition-transform duration-300 transform rounded-lg shadow-xl sm:px-6 sm:text-lg bg-gradient-to-r from-blue-500 to-purple-500 hover:scale-105 hover:shadow-2xl">
-                            View Projects
+                            🚀 View Projects
                         </a>
 
                         <a href="#contact" className="p-3 text-sm font-semibold text-white transition-transform duration-300 transform border-2 border-blue-500 rounded-lg shadow-xl sm:px-6 sm:text-lg hover:bg-blue-500 hover:scale-105 hover:shadow-2xl">
-                            Contact Me
+                            📩 Contact Me
                         </a>
                     </div>
                 </div>
