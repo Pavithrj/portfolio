@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import HamburgerIcon from './../icons/HamburgerIcon';
-import CloseIcon from './../icons/CloseIcon';
-import PavithrJainLogo from './../../assets/PavithrJainLogo.png';
+import HamburgerIcon from './../icons/Navbar/HamburgerIcon';
+import CloseIcon from './../icons/Navbar/CloseIcon';
+import PavithrJainLogo from './../../assets/Navbar/PavithrJainLogo.png';
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
