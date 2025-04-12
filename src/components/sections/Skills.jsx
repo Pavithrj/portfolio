@@ -16,7 +16,7 @@ const Skills = () => {
                             key={index}
                             className="relative flex flex-col items-center p-4 transition-transform duration-500 bg-gray-700 shadow-lg group rounded-xl hover:scale-110"
                         >
-                            <div className="flex items-center justify-center p-5 bg-gray-800 rounded-full group-hover:animate-spin">
+                            <div className="flex items-center justify-center p-4 bg-gray-800 rounded-full group-hover:animate-spin">
                                 <skill.svg className="text-white w-14 h-14" />
                             </div>
                             <p className="mt-4 text-lg font-semibold">{skill.name}</p>
