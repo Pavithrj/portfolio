@@ -8,10 +8,11 @@ import Footer from './components/layout/Footer';
 
 function App() {
     const sections = [Home, About];
-    // const sections = [Skills, Projects, Contact];
+    // const sections = [Skills];
+    // const sections = [Projects, Contact];
 
     return (
-        <div className="h-full min-h-screen text-white bg-gray-900">
+        <div>
             <Navbar />
 
             {sections.map((Section, index) => (
