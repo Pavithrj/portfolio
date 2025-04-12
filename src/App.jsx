@@ -7,13 +7,13 @@ import Contact from './components/sections/Contact';
 import Footer from './components/layout/Footer';
 
 function App() {
-    // const sections = [Home, About];
-    const sections = [Skills];
+    const sections = [Home, About];
+    // const sections = [Skills];
     // const sections = [Projects, Contact];
 
     return (
         <div>
-            {/* <Navbar /> */}
+            <Navbar />
 
             {sections.map((Section, index) => (
                 <Section key={index} />
