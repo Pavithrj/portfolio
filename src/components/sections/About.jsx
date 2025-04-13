@@ -1,20 +1,6 @@
-import { useEffect, useState, useRef } from 'react';
-
 const About = () => {
-    const [isVisible, setIsVisible] = useState(false);
-    const aboutRef = useRef(null);
-
-    useEffect(() => {
-        const observer = new IntersectionObserver(([entry]) => {
-            if (entry.isIntersecting) setIsVisible(true);
-        }, { threshold: 0.3 });
-
-        if (aboutRef.current) observer.observe(aboutRef.current);
-        return () => observer.disconnect();
-    }, []);
-
     return (
-        <section id="about" ref={aboutRef} className={`relative flex flex-col items-center justify-center h-screen p-6 text-center text-white bg-gradient-to-b from-gray-900 to-gray-800 ${isVisible ? "animate-fade-in" : ""}`}>
+        <section id="about" className="relative flex flex-col items-center justify-center h-screen p-4 text-center text-white bg-gradient-to-b from-gray-900 to-gray-800">
             <div className="absolute w-56 h-56 bg-blue-500 rounded-full top-1/4 left-1/4 sm:w-72 sm:h-72 opacity-20 blur-3xl"></div>
             <div className="absolute w-56 h-56 bg-purple-500 rounded-full bottom-1/4 right-1/4 sm:w-72 sm:h-72 opacity-20 blur-3xl"></div>
 

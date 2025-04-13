@@ -1,8 +1,6 @@
 import iconsData from './../icons/index';
 
 const Skills = () => {
-    console.log("iconsData", iconsData)
-
     return (
         <section id="skills" className="relative flex flex-col items-center justify-center h-screen p-4 overflow-hidden text-center text-white lg:px-0 bg-gradient-to-b from-gray-900 to-gray-800">
             <div className="absolute w-56 h-56 bg-blue-500 rounded-full top-1/4 left-1/4 sm:w-72 sm:h-72 opacity-20 blur-3xl"></div>
@@ -10,7 +8,7 @@ const Skills = () => {
 
             <div className="w-full min-h-screen py-16 text-white">
                 <h2 className="text-3xl font-extrabold leading-tight tracking-wide text-blue-400 duration-500 sm:text-4xl md:text-5xl lg:text-6xl animate-fade-in">Skills</h2>
-                <div className="grid max-w-5xl grid-cols-2 gap-8 mx-auto mt-8 duration-500 sm:grid-cols-3 md:grid-cols-4 animate-fade-in">
+                <div className="grid max-w-5xl grid-cols-2 gap-8 mx-auto mt-8 duration-500 sm:grid-cols-4 xl:grid-cols-5 animate-fade-in">
                     {iconsData.map((skill, index) => (
                         <div
                             key={index}

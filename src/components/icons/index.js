@@ -1,10 +1,13 @@
 import htmlIcon from './Skills/HTMLIcon';
 import CSSIcon from './Skills/CSSIcon';
+import TailwindCSSIcon from './Skills/TailwindCSSIcon';
 import JavaScriptIcon from './Skills/JavaScriptIcon';
 import ReactJsIcon from './Skills/ReactJsIcon';
 import NodeJsIcon from './Skills/NodeJsIcon';
 import ExpressJsIcon from './Skills/ExpressJsIcon';
 import MongoDBIcon from './Skills/MongoDBIcon';
+import MySQLIcon from './Skills/MySQLIcon';
+import PostmanIcon from './Skills/PostmanIcon';
 
 const iconsData = [
     {
@@ -13,11 +16,15 @@ const iconsData = [
     },
     {
         name: "CSS",
-        svg: ReactJsIcon,
+        svg: CSSIcon,
+    },
+    {
+        name: "TailwindCSS",
+        svg: TailwindCSSIcon,
     },
     {
         name: "JavaScript",
-        svg: ReactJsIcon,
+        svg: JavaScriptIcon,
     },
     {
         name: "ReactJs",
@@ -25,15 +32,23 @@ const iconsData = [
     },
     {
         name: "NodeJs",
-        svg: ReactJsIcon,
+        svg: NodeJsIcon,
     },
     {
         name: "ExpressJs",
-        svg: ReactJsIcon,
+        svg: ExpressJsIcon,
     },
     {
         name: "MongoDB",
-        svg: ReactJsIcon,
+        svg: MongoDBIcon,
+    },
+    {
+        name: "MySQL",
+        svg: MySQLIcon,
+    },
+    {
+        name: "Postman",
+        svg: PostmanIcon,
     },
 ];
 
