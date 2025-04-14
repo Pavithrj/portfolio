@@ -8,6 +8,8 @@ import ExpressJsIcon from './Skills/ExpressJsIcon';
 import MongoDBIcon from './Skills/MongoDBIcon';
 import MySQLIcon from './Skills/MySQLIcon';
 import PostmanIcon from './Skills/PostmanIcon';
+import JestIcon from './Skills/JestIcon';
+import MaterialUIIcon from './Skills/MaterialUIIcon';
 
 const iconsData = [
     {
@@ -49,6 +51,14 @@ const iconsData = [
     {
         name: "Postman",
         svg: PostmanIcon,
+    },
+    {
+        name: "Jest",
+        svg: JestIcon,
+    },
+    {
+        name: "Material UI",
+        svg: MaterialUIIcon,
     },
 ];
 

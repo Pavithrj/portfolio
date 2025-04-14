@@ -8,7 +8,7 @@ const Skills = () => {
 
             <div className="w-full text-white">
                 <h2 className="text-3xl font-extrabold leading-tight tracking-wide text-blue-400 duration-500 sm:text-4xl md:text-5xl lg:text-6xl animate-fade-in">Skills</h2>
-                <div className="grid max-w-5xl grid-cols-2 gap-8 mx-auto mt-8 duration-500 sm:grid-cols-4 xl:grid-cols-5 animate-fade-in">
+                <div className="grid max-w-5xl grid-cols-2 gap-4 mx-auto mt-8 duration-500 md:gap-8 sm:grid-cols-3 xl:grid-cols-4 animate-fade-in">
                     {iconsData.map((skill, index) => (
                         <div
                             key={index}

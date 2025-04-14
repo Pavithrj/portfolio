@@ -5,4 +5,4 @@ const TailwindCSSIcon = () => (
     </svg>
 );
 
-export default TailwindCSSIcon
+export default TailwindCSSIcon;
