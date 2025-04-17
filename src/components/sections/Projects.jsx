@@ -1,12 +1,31 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import ProjectsData from './../../data/projects/ProjectsData';
 
 const Projects = () => {
     const [imageLoaded, setImageLoaded] = useState(false);
     const [selectedCategory, setSelectedCategory] = useState("Frontend");
+    const [visibleCount, setVisibleCount] = useState(8);
     const categories = ["Frontend", "Backend", "Full Stack"];
 
     const filteredProjects = ProjectsData.filter((project) => project.category === selectedCategory);
+
+    useEffect(() => {
+        const handleResize = () => {
+            const width = window.innerWidth;
+
+            if (width < 600) {
+                setVisibleCount(4);
+            } else if (width < 1280) {
+                setVisibleCount(6);
+            } else {
+                setVisibleCount(8);
+            }
+        };
+
+        handleResize();
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
 
     return (
         <section id="projects" className="relative flex flex-col items-center justify-center min-h-screen text-white bg-gray-900 lg:p-0 bg-gradient-to-b from-gray-900 to-gray-800">
@@ -27,7 +46,7 @@ const Projects = () => {
                 </div>
 
                 <div className="grid grid-cols-2 gap-4 max-w-7xl lg:gap-8 md:grid-cols-3 xl:grid-cols-4 animate-fade-in">
-                    {filteredProjects.map((project, index) => (
+                    {filteredProjects.slice(0, visibleCount).map((project, index) => (
                         <div key={index} className="relative w-full overflow-hidden duration-500 bg-gray-800 shadow-lg rounded-2xl group animate-fade-in">
                             <img src={project.image} alt={project.title} onLoad={() => setImageLoaded(true)} className="object-cover w-full h-40 duration-500 lg:h-56" />
 
