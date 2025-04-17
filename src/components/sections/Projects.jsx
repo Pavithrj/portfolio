@@ -9,7 +9,7 @@ const Projects = () => {
     const filteredProjects = ProjectsData.filter((project) => project.category === selectedCategory);
 
     return (
-        <section className="relative flex flex-col items-center justify-center min-h-screen text-white bg-gray-900 lg:p-0 bg-gradient-to-b from-gray-900 to-gray-800">
+        <section id="projects" className="relative flex flex-col items-center justify-center min-h-screen text-white bg-gray-900 lg:p-0 bg-gradient-to-b from-gray-900 to-gray-800">
             <div className="absolute w-56 h-56 bg-blue-500 rounded-full top-1/4 left-1/4 sm:w-72 sm:h-72 opacity-20 blur-3xl"></div>
             <div className="absolute w-56 h-56 bg-purple-500 rounded-full bottom-1/4 right-1/4 sm:w-72 sm:h-72 opacity-20 blur-3xl"></div>
 
@@ -29,14 +29,9 @@ const Projects = () => {
                 <div className="grid grid-cols-2 gap-4 max-w-7xl lg:gap-8 md:grid-cols-3 xl:grid-cols-4 animate-fade-in">
                     {filteredProjects.map((project, index) => (
                         <div key={index} className="relative w-full overflow-hidden duration-500 bg-gray-800 shadow-lg rounded-2xl group animate-fade-in">
-                            <img
-                                src={project.image}
-                                alt={project.title}
-                                onLoad={() => setImageLoaded(true)}
-                                className="object-cover w-full h-40 duration-500 lg:h-56"
-                            />
+                            <img src={project.image} alt={project.title} onLoad={() => setImageLoaded(true)} className="object-cover w-full h-40 duration-500 lg:h-56" />
 
-                            {imageLoaded && (
+                            {imageLoaded &&
                                 <div className="absolute inset-0 flex flex-col items-center justify-center p-4 text-center text-white transition-opacity duration-500 opacity-0 bg-indigo-400/80 group-hover:opacity-100">
                                     <h3 className="text-xl font-semibold">
                                         {project.title}
@@ -50,7 +45,7 @@ const Projects = () => {
                                         View Project
                                     </a>
                                 </div>
-                            )}
+                            }
                         </div>
                     ))}
                 </div>
