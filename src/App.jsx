@@ -7,8 +7,8 @@ import Contact from './components/sections/Contact';
 import Footer from './components/layout/Footer';
 
 function App() {
-    const sections = [Home, About, Skills];
-    // const sections = [Projects, Contact];
+    const sections = [Home, About, Skills, Projects];
+    // const sections = [Contact];
 
     return (
         <div>
