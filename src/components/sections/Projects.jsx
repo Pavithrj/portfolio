@@ -62,7 +62,7 @@ const Projects = () => {
                                         <p className="mt-2">
                                             {project.description}
                                         </p>
-                                        <a target="_blank" href={project.link} className="px-4 py-2 mt-4 bg-indigo-500 rounded-lg w-fit hover:bg-indigo-900">
+                                        <a target="_blank" rel="noreferrer" href={project.link} className="px-4 py-2 mt-4 bg-indigo-500 rounded-lg w-fit hover:bg-indigo-900">
                                             Launch Project
                                         </a>
                                     </div>
