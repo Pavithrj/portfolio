@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import ProjectsData from './../../data/projects/ProjectsData';
+// import ProjectsData from './../../data/projects/ProjectsData';
 
 const Projects = () => {
+    const ProjectsData = [];
     const [imageLoaded, setImageLoaded] = useState(false);
     const [selectedCategory, setSelectedCategory] = useState("Frontend");
     const [visibleCount, setVisibleCount] = useState(8);
@@ -47,27 +48,31 @@ const Projects = () => {
                 </div>
 
                 <div className="grid grid-cols-2 gap-4 max-w-7xl lg:gap-8 md:grid-cols-3 xl:grid-cols-4 animate-fade-in">
-                    {filteredProjects.slice(0, visibleCount).map((project, index) => (
-                        <div key={index} className="relative w-full overflow-hidden duration-500 bg-gray-800 shadow-lg rounded-2xl group animate-fade-in">
-                            <img src={project.image} alt={project.title} onLoad={() => setImageLoaded(true)} className="object-cover w-full h-40 duration-500 lg:h-56" />
+                    {filteredProjects.length > 0 ? (
+                        filteredProjects.slice(0, visibleCount).map((project, index) => (
+                            <div key={index} className="relative w-full overflow-hidden duration-500 bg-gray-800 shadow-lg rounded-2xl group animate-fade-in">
+                                <img src={project.image} alt={project.title} onLoad={() => setImageLoaded(true)} className="object-cover w-full h-40 duration-500 lg:h-56" />
 
-                            {imageLoaded &&
-                                <div className="absolute inset-0 flex flex-col items-center justify-center p-4 text-center text-white transition-opacity duration-500 opacity-0 bg-indigo-400/80 group-hover:opacity-100">
-                                    <h3 className="text-xl font-semibold">
-                                        {project.title}
-                                    </h3>
-
-                                    <p className="mt-2">
-                                        {project.description}
-                                    </p>
-
-                                    <a target="_blank" href={project.link} className="px-4 py-2 mt-4 bg-indigo-500 rounded-lg w-fit hover:bg-indigo-900">
-                                        Launch Project
-                                    </a>
-                                </div>
-                            }
+                                {imageLoaded && (
+                                    <div className="absolute inset-0 flex flex-col items-center justify-center p-4 text-center text-white transition-opacity duration-500 opacity-0 bg-indigo-400/80 group-hover:opacity-100">
+                                        <h3 className="text-xl font-semibold">
+                                            {project.title}
+                                        </h3>
+                                        <p className="mt-2">
+                                            {project.description}
+                                        </p>
+                                        <a target="_blank" href={project.link} className="px-4 py-2 mt-4 bg-indigo-500 rounded-lg w-fit hover:bg-indigo-900">
+                                            Launch Project
+                                        </a>
+                                    </div>
+                                )}
+                            </div>
+                        ))
+                    ) : (
+                        <div className="flex items-center justify-center h-40 text-lg font-medium text-gray-400 col-span-full">
+                            🚧 No projects found in this category.
                         </div>
-                    ))}
+                    )}
                 </div>
 
                 <Link to="/portfolio/projects" className="w-auto px-4 py-2 text-sm font-semibold text-white transition-all duration-500 bg-indigo-600 rounded-lg md:px-6 hover:bg-indigo-500">
