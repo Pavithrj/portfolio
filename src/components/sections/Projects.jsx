@@ -12,7 +12,7 @@ const Projects = () => {
     const filteredProjects = ProjectsData.filter((project) => project.category === selectedCategory);
 
     useEffect(() => {
-        const handleResize = () => {
+        const handleResizeOrCategoryChange = () => {
             const width = window.innerWidth;
 
             if (width < 600) {
@@ -24,10 +24,11 @@ const Projects = () => {
             }
         };
 
-        handleResize();
-        window.addEventListener("resize", handleResize);
-        return () => window.removeEventListener("resize", handleResize);
-    }, []);
+        handleResizeOrCategoryChange();
+
+        window.addEventListener("resize", handleResizeOrCategoryChange);
+        return () => window.removeEventListener("resize", handleResizeOrCategoryChange);
+    }, [selectedCategory]);
 
     return (
         <section id="projects" className="relative flex flex-col items-center justify-center min-h-screen text-white bg-gray-900 lg:p-0 bg-gradient-to-b from-gray-900 to-gray-800">
