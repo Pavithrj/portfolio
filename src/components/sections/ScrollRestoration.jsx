@@ -7,7 +7,7 @@ const ScrollRestoration = () => {
     useEffect(() => {
         const savedScrollY = sessionStorage.getItem("scrollY");
 
-        if (savedScrollY && performance.navigation.type === 2) {
+        if (savedScrollY && window.history.state?.scrollRestoration === "manual") {
             window.scrollTo(0, parseInt(savedScrollY, 10));
         }
 
