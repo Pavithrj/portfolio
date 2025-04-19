@@ -48,7 +48,7 @@ const Projects = () => {
                     ))}
                 </div>
 
-                <div className="grid grid-cols-2 gap-4 max-w-7xl lg:gap-8 md:grid-cols-3 xl:grid-cols-4 animate-fade-in">
+                <div key={selectedCategory} className="grid grid-cols-2 gap-4 max-w-7xl lg:gap-8 md:grid-cols-3 xl:grid-cols-4 animate-fade-in">
                     {filteredProjects.length > 0 ? (
                         filteredProjects.slice(0, visibleCount).map((project, index) => (
                             <div key={index} className="relative w-full overflow-hidden duration-500 bg-gray-800 shadow-lg rounded-2xl group animate-fade-in">
