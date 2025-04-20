@@ -33,11 +33,11 @@ const Skills = () => {
             <div className="absolute w-56 h-56 bg-purple-500 rounded-full bottom-1/4 right-1/4 sm:w-72 sm:h-72 opacity-20 blur-3xl"></div>
 
             <div className="flex flex-col items-center justify-center w-full gap-8 text-white">
-                <h2 className="text-3xl font-extrabold leading-tight tracking-wide text-blue-400 duration-500 sm:text-4xl md:text-5xl lg:text-6xl animate-fade-in">
+                <h2 className="text-3xl font-extrabold leading-tight tracking-wide text-blue-400 duration-500 sm:text-4xl md:text-5xl lg:text-6xl animate-fadeIn">
                     Skills
                 </h2>
 
-                <div className="grid w-full max-w-5xl grid-cols-2 gap-4 duration-500 md:gap-8 sm:grid-cols-3 xl:grid-cols-4 animate-fade-in">
+                <div className="grid w-full max-w-5xl grid-cols-2 gap-4 duration-500 md:gap-8 sm:grid-cols-3 xl:grid-cols-4 animate-fadeIn">
                     {iconsData.slice(0, visibleCount).map((skill, index) => (
                         <div
                             key={index}

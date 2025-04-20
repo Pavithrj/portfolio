@@ -5,14 +5,16 @@ import ScrollRestoration from './components/sections/ScrollRestoration';
 
 function App() {
     return (
-        <div>
+        <>
             <ScrollRestoration />
 
-            <Routes>
-                <Route path="/portfolio" element={<Portfolio />} />
-                <Route path="/portfolio/projects" element={<AllProjects />} />
-            </Routes>
-        </div>
+            <main>
+                <Routes>
+                    <Route path="/portfolio" element={<Portfolio />} />
+                    <Route path="/portfolio/projects" element={<AllProjects />} />
+                </Routes>
+            </main>
+        </>
     )
 };
 

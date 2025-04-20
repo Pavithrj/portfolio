@@ -8,15 +8,15 @@ const Hero = () => {
 
             <div className="flex flex-col items-center gap-8 justify-between w-full mx-auto max-w-[1250px] lg:flex-row">
                 <div className="flex flex-col gap-4 w-full lg:w-[60%] mx-auto">
-                    <h1 className="text-3xl font-extrabold leading-tight tracking-wide duration-500 sm:text-4xl md:text-5xl lg:text-6xl animate-fade-in">
+                    <h1 className="text-3xl font-extrabold leading-tight tracking-wide duration-500 sm:text-4xl md:text-5xl lg:text-6xl animate-fadeInDelay">
                         Hi, I'm <span className="text-blue-500">Pavithr Jain</span>
                     </h1>
 
-                    <p className="max-w-2xl mx-auto text-base text-gray-300 duration-500 md:text-lg lg:text-lg animate-fade-in-delay">
+                    <p className="max-w-2xl mx-auto text-base text-gray-300 duration-500 md:text-lg lg:text-lg animate-fadeInDelay">
                         Building robust and dynamic web applications as a <span className="font-bold text-blue-400">MERN Stack Developer</span>.
                     </p>
 
-                    <div className="flex flex-row justify-center gap-4 sm:gap-6 animate-fade-in-delay">
+                    <div className="flex flex-row justify-center gap-4 sm:gap-6 animate-fadeInDelay">
                         <a href="#projects" className="p-3 text-sm font-semibold text-white transition-transform duration-300 transform rounded-lg shadow-xl sm:px-6 sm:text-lg bg-gradient-to-r from-blue-500 to-purple-500 hover:scale-105 hover:shadow-2xl">
                             🚀 View Projects
                         </a>
@@ -28,7 +28,7 @@ const Hero = () => {
                 </div>
 
                 <div className="flex items-center justify-center w-full mx-auto lg:w-[40%]">
-                    <img src={HeroPic} alt="Profile" className="w-40 h-40 duration-500 rounded-full shadow-lg sm:h-64 sm:w-64 ring-4 ring-blue-500/50 hover:scale-110 animate-fade-in" />
+                    <img src={HeroPic} alt="Profile" className="w-40 h-40 duration-500 rounded-full shadow-lg sm:h-64 sm:w-64 ring-4 ring-blue-500/50 hover:scale-110 animate-fadeIn" />
                 </div>
             </div>
         </section>
