@@ -16,7 +16,7 @@ export default {
             },
             animation: {
                 fadeIn: "fadeIn 1s ease-in-out forwards",
-                fadeInDelay: "fadeIn 1s ease-in-out 0.3s backwards",
+                fadeInDelay: "fadeIn 1s ease-in-out 0.3s backwards"
             },
             fontFamily: {
                 sans: ["var(--font-sora)", ...fontFamily.sans]
