@@ -20,7 +20,7 @@ export default {
             },
             fontFamily: {
                 sans: ["var(--font-sora)", ...fontFamily.sans],
-            },
+            }
         }
     },
     plugins: []
