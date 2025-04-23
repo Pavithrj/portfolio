@@ -1,5 +1,3 @@
-<!-- update on 4/22/2025 morning -->
-
 # 📌 Portfolio
 
 A **modern, responsive, and minimalistic** portfolio showcasing my **skills, projects, and expertise** in **React and TailwindCSS**. Built with **Vite**, it ensures fast performance and an elegant UI.
