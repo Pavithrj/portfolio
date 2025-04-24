@@ -7,15 +7,15 @@ Engineered with a modern tech stack – **ReactJS**, **TailwindCSS**, and **Vite
 ## 🗂️ Table of Contents
 
 - [📌 Portfolio](#-portfolio)
-  - [🗂️ Table of Contents](#️-table-of-contents)
-  - [🌍 Live Demo](#-live-demo)
-  - [✨ Features](#-features)
-  - [📸 Screenshots](#-screenshots)
-  - [⚙️ Tech Stack](#️-tech-stack)
-  - [📂 Folder Structure](#-folder-structure)
-  - [🛠️ Installation \& Setup](#️-installation--setup)
-  - [📜 License](#-license)
-    - [🔗 Connect with Me](#-connect-with-me)
+- [🗂️ Table of Contents](#️-table-of-contents)
+- [🌍 Live Demo](#-live-demo)
+- [✨ Features](#-features)
+- [📸 Screenshots](#-screenshots)
+- [⚙️ Tech Stack](#️-tech-stack)
+- [📂 Folder Structure](#-folder-structure)
+- [🛠️ Installation \& Setup](#️-installation--setup)
+- [📜 License](#-license)
+- [🔗 Connect with Me](#-connect-with-me)
 
 ## 🌍 Live Demo
 
