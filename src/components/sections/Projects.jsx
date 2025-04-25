@@ -69,11 +69,14 @@ const Projects = () => {
                                 )}
                             </div>
                         ))
-                    ) : (
-                        <div className="flex items-center justify-center h-40 text-lg font-medium text-gray-400 col-span-full">
-                            🚧 No projects found in this category.
-                        </div>
-                    )}
+                    )
+                        :
+                        (
+                            <div className="flex items-center justify-center h-40 text-lg font-medium text-gray-400 col-span-full">
+                                🚧 No projects found in this category.
+                            </div>
+                        )
+                    }
                 </div>
 
                 {filteredProjects.length > visibleCount &&
