@@ -9,8 +9,6 @@ const Projects = () => {
     const [visibleCount, setVisibleCount] = useState(8);
     const categories = ["Frontend", "Backend", "Full Stack"];
 
-    console.log("ProjectsData", ProjectsData);
-
     const filteredProjects = ProjectsData.filter((project) => project.category === selectedCategory);
 
     useEffect(() => {
