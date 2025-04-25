@@ -44,7 +44,7 @@ const Projects = () => {
 
                 <div className="flex justify-center w-full gap-4 mx-auto duration-500 md:gap-10 animate-fadeIn">
                     {categories.map((category) => (
-                        <button key={category} onClick={() => setSelectedCategory(category)} className={`px-4 duration-500 md:px-6 py-2 rounded-lg font-semibold transition-all text-sm md:text-base w-full sm:w-auto ${selectedCategory === category ? "bg-indigo-600 text-white" : "bg-gray-700 hover:bg-indigo-500 text-gray-300"}`}>
+                        <button key={category} onClick={() => setSelectedCategory(category)} className={`px-4 md:px-6 py-2 rounded-lg font-semibold transition-all text-sm md:text-base w-full sm:w-auto ${selectedCategory === category ? "bg-indigo-600 text-white" : "bg-gray-700 text-gray-400 opacity-70 hover:opacity-100 hover:bg-indigo-500 hover:text-white"}`}>
                             {category}
                         </button>
                     ))}
