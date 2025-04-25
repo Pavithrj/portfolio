@@ -1,9 +1,3 @@
-# 📌 Portfolio
-
-A **modern, responsive, and minimalistic** portfolio showcasing my **skills, projects, and expertise** in **React and TailwindCSS**. Built with **Vite**, it ensures fast performance and an elegant UI.
-
-Engineered with a modern tech stack – **ReactJS**, **TailwindCSS**, and **Vite** – to ensure a seamless user experience.
-
 ## 🗂️ Table of Contents
 
 - [📌 Portfolio](#-portfolio)
@@ -11,11 +5,16 @@ Engineered with a modern tech stack – **ReactJS**, **TailwindCSS**, and **Vite
 - [🌍 Live Demo](#-live-demo)
 - [✨ Features](#-features)
 - [📸 Screenshots](#-screenshots)
-- [⚙️ Tech Stack](#️-tech-stack)
+- [⚙️ Tech Stack](#-tech-stack)
 - [📂 Folder Structure](#-folder-structure)
-- [🛠️ Installation \& Setup](#️-installation--setup)
-- [📜 License](#-license)
+- [🛠️ Installation & Setup](#-installation--setup)
 - [🔗 Connect with Me](#-connect-with-me)
+
+# 📌 Portfolio
+
+A **modern, responsive, and minimalistic** portfolio showcasing my **skills, projects, and expertise** in **React and TailwindCSS**. Built with **Vite**, it ensures fast performance and an elegant UI.
+
+Engineered with a modern tech stack – **ReactJS**, **TailwindCSS**, and **Vite** – to ensure a seamless user experience.
 
 ## 🌍 Live Demo
 
@@ -149,10 +148,6 @@ Portfolio/
 4. **🌐 Open in browser**
    The application will run at `http://localhost:5173/`
 
-## 📜 License
-This project is licensed under the MIT License.
-
----
 
 ### 🔗 Connect with Me
 
