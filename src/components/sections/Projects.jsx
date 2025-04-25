@@ -55,7 +55,7 @@ const Projects = () => {
                                 <img src={project.image} alt={project.title} onLoad={() => { setImageLoadedStates(prev => ({ ...prev, [index]: true })) }} className="object-cover w-full h-40 duration-500 lg:h-56" />
 
                                 {imageLoadedStates[index] &&
-                                    <div className="absolute inset-0 flex flex-col items-center justify-center p-4 text-center text-white transition-opacity duration-500 opacity-0 bg-indigo-400/80 group-hover:opacity-100">
+                                    <div className="absolute inset-0 flex flex-col items-center justify-center p-4 text-center text-white transition-opacity duration-500 opacity-0 bg-indigo-900/80 group-hover:opacity-100">
                                         <h3 className="text-base font-semibold sm:text-xl">
                                             {project.title}
                                         </h3>
@@ -64,7 +64,7 @@ const Projects = () => {
                                             {project.description}
                                         </p>
 
-                                        <a target="_blank" rel="noreferrer" href={project.link} className="px-4 py-2 mt-4 text-base bg-indigo-500 rounded-lg w-fit hover:bg-indigo-900">
+                                        <a target="_blank" rel="noreferrer" href={project.link} className="px-4 py-2 mt-4 text-base bg-indigo-700 rounded-lg w-fit hover:bg-indigo-900">
                                             Launch Project
                                         </a>
                                     </div>
@@ -73,7 +73,7 @@ const Projects = () => {
                         ))
                         :
                         <div className="flex items-center justify-center h-40 text-lg font-medium text-gray-400 col-span-full">
-                            🚧 No projects found in this category.
+                            🚧 Projects brewing — exciting things on the way!
                         </div>
                     }
                 </div>
