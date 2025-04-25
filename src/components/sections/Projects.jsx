@@ -76,11 +76,11 @@ const Projects = () => {
                     )}
                 </div>
 
-                {filteredProjects.length > visibleCount && (
+                {filteredProjects.length > visibleCount &&
                     <Link to="/portfolio/projects" className="w-auto px-4 py-2 text-sm font-semibold text-white transition-all duration-500 bg-indigo-600 rounded-lg md:px-6 hover:bg-indigo-500">
                         Discover More
                     </Link>
-                )}
+                }
             </div>
         </section>
     )
