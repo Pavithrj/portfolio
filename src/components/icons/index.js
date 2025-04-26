@@ -1,15 +1,15 @@
-import htmlIcon from './Skills/HTMLIcon';
-import CSSIcon from './Skills/CSSIcon';
-import TailwindCSSIcon from './Skills/TailwindCSSIcon';
-import JavaScriptIcon from './Skills/JavaScriptIcon';
-import ReactJsIcon from './Skills/ReactJsIcon';
-import NodeJsIcon from './Skills/NodeJsIcon';
-import ExpressJsIcon from './Skills/ExpressJsIcon';
-import MongoDBIcon from './Skills/MongoDBIcon';
-import MySQLIcon from './Skills/MySQLIcon';
-import PostmanIcon from './Skills/PostmanIcon';
-import JestIcon from './Skills/JestIcon';
-import MaterialUIIcon from './Skills/MaterialUIIcon';
+import htmlIcon from './skills/HTMLIcon';
+import CSSIcon from './skills/CSSIcon';
+import TailwindCSSIcon from './skills/TailwindCSSIcon';
+import JavaScriptIcon from './skills/JavaScriptIcon';
+import ReactJsIcon from './skills/ReactJsIcon';
+import NodeJsIcon from './skills/NodeJsIcon';
+import ExpressJsIcon from './skills/ExpressJsIcon';
+import MongoDBIcon from './skills/MongoDBIcon';
+import MySQLIcon from './skills/MySQLIcon';
+import PostmanIcon from './skills/PostmanIcon';
+import JestIcon from './skills/JestIcon';
+import MaterialUIIcon from './skills/MaterialUIIcon';
 
 const iconsData = [
     {
