@@ -26,7 +26,7 @@ const Navbar = () => {
 
     return (
         <header className="fixed top-0 z-50 w-full p-4 bg-gray-800 shadow-md">
-            <nav className="mx-auto flex justify-between items-center w-full xl:w-[1300px]">
+            <nav aria-label="Main Navigation" className="mx-auto flex justify-between items-center w-full xl:w-[1300px]">
                 <img src={PavithrJainLogo} alt="Portfolio Logo" className="w-10 h-10" />
 
                 <div className="hidden gap-8 text-xl text-gray-300 md:flex">
