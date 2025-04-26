@@ -1,4 +1,4 @@
-import HeroPic from './../../assets/home/hero-pic.png';
+import HeroImage from './../../assets/home/hero-image.png';
 
 const Hero = () => {
     return (
@@ -28,7 +28,7 @@ const Hero = () => {
                 </div>
 
                 <div className="flex items-center justify-center w-full mx-auto lg:w-[40%]">
-                    <img src={HeroPic} alt="Profile" className="w-40 h-40 duration-500 rounded-full shadow-lg sm:h-64 sm:w-64 ring-4 ring-blue-500/50 hover:scale-110 animate-fadeIn" />
+                    <img src={HeroImage} alt="Profile" className="w-40 h-40 duration-500 rounded-full shadow-lg sm:h-64 sm:w-64 ring-4 ring-blue-500/50 hover:scale-110 animate-fadeIn" />
                 </div>
             </div>
         </section>
