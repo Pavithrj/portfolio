@@ -1,4 +1,4 @@
-import Dummy from './../../../dummy.pdf';
+import Dummy from './../../assets/about/dummy.pdf';
 
 const About = () => {
     return (
