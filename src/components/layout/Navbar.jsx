@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import HamburgerIcon from './../icons/Navbar/HamburgerIcon';
-import CloseIcon from './../icons/Navbar/CloseIcon';
+import HamburgerIcon from '../icons/navbar/HamburgerIcon';
+import CloseIcon from '../icons/navbar/CloseIcon';
 import PavithrJainLogo from './../../assets/Navbar/PavithrJainLogo.png';
 
 const Navbar = () => {
