@@ -9,6 +9,7 @@ import Contact from '../components/sections/Contact';
 
 const Portfolio = () => {
     const sections = [Home, About, Skills, Projects, Contact];
+
     return (
         <div>
             <Navbar />
