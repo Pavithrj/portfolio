@@ -1,6 +1,6 @@
-import GithubInIcon from "../icons/contact/GithubIcon";
-import LinkedInIcon from "../icons/contact/LinkedInIcon";
-import TelegramIcon from "../icons/contact/TelegramIcon";
+import GithubInIcon from '../icons/contact/GithubIcon';
+import LinkedInIcon from '../icons/contact/LinkedInIcon';
+import TelegramIcon from '../icons/contact/TelegramIcon';
 
 const Contact = () => {
     return (
