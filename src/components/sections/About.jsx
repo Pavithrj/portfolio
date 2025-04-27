@@ -1,4 +1,4 @@
-import Dummy from './../../assets/about/dummy.pdf';
+import Resume from './../../assets/about/Resume.pdf';
 
 const About = () => {
     return (
@@ -15,7 +15,7 @@ const About = () => {
                     I am a <span className="font-bold text-blue-400">MERN Stack Developer</span> passionate about crafting <span className="font-bold text-blue-400"> efficient</span>, <span className="font-bold text-blue-400">scalable</span>, and <span className="font-bold text-blue-400"> user-friendly</span> web applications. With expertise in <span className="font-bold text-blue-400"> MongoDB</span>, <span className="font-bold text-blue-400"> Express.js</span>, <span className="font-bold text-blue-400"> React</span>, and <span className="font-bold text-blue-400"> Node.js</span>, I build dynamic digital solutions that enhance user experiences.
                 </p>
 
-                <a target="_blank" href={Dummy} download="Dummy.pdf"
+                <a target="_blank" href={Resume} download="Resume.pdf"
                     className='px-6 py-3 text-lg font-semibold text-white transition-transform duration-500 transform rounded-lg shadow-xl w-fit bg-gradient-to-r from-blue-500 to-purple-500 hover:scale-105 hover:shadow-2xl animate-fadeIn'>
                     📄 View Resume
                 </a>
