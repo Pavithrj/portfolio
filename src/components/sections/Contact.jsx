@@ -4,7 +4,7 @@ import TelegramIcon from "../icons/contact/TelegramIcon";
 
 const Contact = () => {
     return (
-        <section id="contact" className="relative flex flex-col items-center justify-center w-full h-full min-h-screen p-4 text-white bg-gradient-to-b from-gray-900 to-gray-700">
+        <section id="contact" className="relative flex flex-col items-center justify-center h-full min-h-screen p-4 text-white lg:px-0 bg-gradient-to-b from-gray-900 to-gray-700">
             <div className="absolute w-56 h-56 bg-blue-500 rounded-full top-1/4 left-1/4 sm:w-72 sm:h-72 opacity-20 blur-3xl"></div>
             <div className="absolute w-56 h-56 bg-purple-500 rounded-full bottom-1/4 right-1/4 sm:w-72 sm:h-72 opacity-20 blur-3xl"></div>
 

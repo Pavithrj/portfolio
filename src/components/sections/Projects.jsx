@@ -31,11 +31,11 @@ const Projects = () => {
     }, [selectedCategory]);
 
     return (
-        <section id="projects" className="relative flex flex-col items-center justify-center h-full min-h-screen text-white bg-gray-900 lg:p-0 bg-gradient-to-b from-gray-900 to-gray-800">
+        <section id="projects" className="relative flex flex-col items-center justify-center h-full min-h-screen p-4 text-white bg-gray-900 lg:px-0 bg-gradient-to-b from-gray-900 to-gray-800">
             <div className="absolute w-56 h-56 bg-blue-500 rounded-full top-1/4 left-1/4 sm:w-72 sm:h-72 opacity-20 blur-3xl"></div>
             <div className="absolute w-56 h-56 bg-purple-500 rounded-full bottom-1/4 right-1/4 sm:w-72 sm:h-72 opacity-20 blur-3xl"></div>
 
-            <div className="flex flex-col items-center w-full gap-6 px-4 py-8 animate-fadeIn">
+            <div className="flex flex-col items-center w-full gap-6 animate-fadeIn">
                 <h2 className="text-3xl font-extrabold leading-tight tracking-wide text-blue-400 duration-500 sm:text-4xl md:text-5xl lg:text-6xl animate-fadeIn">
                     Projects
                 </h2>
