@@ -18,14 +18,15 @@ const Skills = () => {
                 setHideSkills(false);
                 setVisibleCount(iconsData.length);
             } else {
-                setVisibleCount(hideSkills ? 6 : iconsData.length);
+                setHideSkills(true);
+                setVisibleCount(6);
             }
         };
 
         handleResize();
         window.addEventListener('resize', handleResize);
         return () => window.removeEventListener('resize', handleResize);
-    }, [hideSkills]);
+    }, []);
 
     return (
         <section id="skills" className="relative flex flex-col items-center justify-center h-full min-h-screen p-4 text-center text-white lg:px-0 bg-gradient-to-b from-gray-900 to-gray-800">
