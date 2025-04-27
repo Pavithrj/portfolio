@@ -2,8 +2,6 @@ import GithubInIcon from "../icons/contact/GithubIcon";
 import LinkedInIcon from "../icons/contact/LinkedInIcon";
 import TelegramIcon from "../icons/contact/TelegramIcon";
 
-// import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
-
 const Contact = () => {
     return (
         <section id="contact" className="p-4 w-full bg-gradient-to-b from-gray-900 to-gray-700 text-white min-h-screen relative h-full flex flex-col items-center justify-center">
