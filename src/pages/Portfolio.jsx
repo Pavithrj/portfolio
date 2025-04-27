@@ -8,10 +8,7 @@ import Projects from '../components/sections/Projects';
 import Contact from '../components/sections/Contact';
 
 const Portfolio = () => {
-    const sections = [Home, About, Skills, Projects];
-    // const sections = [Projects];
-    // const sections = [Contact];
-
+    const sections = [Home, About, Skills, Projects, Contact];
     return (
         <div>
             <Navbar />
