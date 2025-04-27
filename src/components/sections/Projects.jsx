@@ -31,7 +31,7 @@ const Projects = () => {
     }, [selectedCategory]);
 
     return (
-        <section id="projects" className="relative flex flex-col items-center justify-center min-h-screen text-white bg-gray-900 lg:p-0 bg-gradient-to-b from-gray-900 to-gray-800">
+        <section id="projects" className="relative flex flex-col items-center justify-center h-full min-h-screen text-white bg-gray-900 lg:p-0 bg-gradient-to-b from-gray-900 to-gray-800">
             <div className="absolute w-56 h-56 bg-blue-500 rounded-full top-1/4 left-1/4 sm:w-72 sm:h-72 opacity-20 blur-3xl"></div>
             <div className="absolute w-56 h-56 bg-purple-500 rounded-full bottom-1/4 right-1/4 sm:w-72 sm:h-72 opacity-20 blur-3xl"></div>
 

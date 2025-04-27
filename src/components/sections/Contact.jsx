@@ -14,11 +14,11 @@ const Contact = () => {
                     Connect with Me
                 </h2>
 
-                <p className="mb-12 text-xs text-gray-400 duration-500 animate-fade-in-down animate-fadeIn 2xl:text-lg">
+                <p className="text-xs text-gray-400 duration-500 animate-fade-in-down animate-fadeIn 2xl:text-lg">
                     Let's collaborate, build something amazing, or just have a coffee chat! ☕
                 </p>
 
-                <form className="flex flex-col gap-6 duration-500 animate-fadeIn">
+                <form className="flex flex-col gap-6 py-5 duration-500 animate-fadeIn">
                     <input type="text" placeholder="Your Name" className="p-4 bg-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" />
 
                     <input type="email" placeholder="Your Email" className="p-4 bg-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" />
@@ -30,7 +30,7 @@ const Contact = () => {
                     </button>
                 </form>
 
-                <div className="flex justify-center gap-6 mt-12 duration-500 animate-fadeIn">
+                <div className="flex justify-center gap-6 duration-500 animate-fadeIn">
                     <a href="https://github.com/Pavithrj" target="_blank" rel="noopener noreferrer" className="transition hover:scale-110">
                         <GithubInIcon />
                     </a>
