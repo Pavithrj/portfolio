@@ -16,7 +16,7 @@ const About = () => {
                 </p>
 
                 <a target="_blank" href={Resume} download="Resume.pdf"
-                    className='px-6 py-3 text-lg font-semibold text-white transition-transform duration-500 transform rounded-lg shadow-xl w-fit bg-gradient-to-r from-blue-500 to-purple-500 hover:scale-105 hover:shadow-2xl animate-fadeIn'>
+                    className="px-6 py-3 text-lg font-semibold text-white transition-transform duration-500 transform rounded-lg shadow-xl w-fit bg-gradient-to-r from-blue-500 to-purple-500 hover:scale-105 hover:shadow-2xl animate-fadeIn">
                     📄 View Resume
                 </a>
             </div>
