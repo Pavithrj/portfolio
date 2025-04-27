@@ -24,8 +24,8 @@ const Skills = () => {
         };
 
         handleResize();
-        window.addEventListener('resize', handleResize);
-        return () => window.removeEventListener('resize', handleResize);
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
     }, []);
 
     return (
@@ -40,29 +40,26 @@ const Skills = () => {
 
                 <div className="grid w-full max-w-5xl grid-cols-2 gap-4 duration-500 md:gap-8 sm:grid-cols-3 xl:grid-cols-4 animate-fadeIn">
                     {iconsData.slice(0, visibleCount).map((skill, index) => (
-                        <div
-                            key={index}
-                            className="relative flex flex-col items-center p-4 transition-transform duration-500 bg-gray-700 shadow-lg group rounded-xl hover:scale-110"
-                        >
+                        <div key={index} className="relative flex flex-col items-center p-4 transition-transform duration-500 bg-gray-700 shadow-lg group rounded-xl hover:scale-110">
                             <div className="flex items-center justify-center p-4 bg-gray-800 rounded-full group-hover:animate-spin">
                                 <skill.svg className="text-white w-14 h-14" />
                             </div>
-                            <p className="mt-4 text-lg font-semibold">{skill.name}</p>
+
+                            <p className="mt-4 text-lg font-semibold">
+                                {skill.name}
+                            </p>
                         </div>
                     ))}
                 </div>
 
-                {hideSkills && (
-                    <button
-                        onClick={handleShowAllSkills}
-                        className="px-4 py-2 mx-auto text-sm font-semibold text-white transition-all duration-500 bg-indigo-600 rounded-lg w-fit md:px-6 hover:bg-indigo-500 xl:hidden"
-                    >
+                {hideSkills &&
+                    <button onClick={handleShowAllSkills} className="px-4 py-2 mx-auto text-sm font-semibold text-white transition-all duration-500 bg-indigo-600 rounded-lg w-fit md:px-6 hover:bg-indigo-500 xl:hidden">
                         Show More
                     </button>
-                )}
+                }
             </div>
         </section>
-    );
+    )
 };
 
 export default Skills;
