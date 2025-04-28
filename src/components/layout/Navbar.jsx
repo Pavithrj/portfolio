@@ -5,6 +5,7 @@ import PavithrJainLogo from './../../assets/navbar/PavithrJainLogo.png';
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
+    const navItems = ["Home", "About", "Projects", "Contact"];
 
     const handleScroll = (id) => {
         const section = document.getElementById(id);
@@ -30,7 +31,7 @@ const Navbar = () => {
                 <img src={PavithrJainLogo} alt="Portfolio Logo" className="w-10 h-10" />
 
                 <div className="hidden gap-8 text-xl text-gray-300 md:flex">
-                    {["Home", "About", "Projects", "Contact"].map((item) => (
+                    {navItems.map((item) => (
                         <a key={item} href={`#${item.toLowerCase()}`} onClick={(e) => { e.preventDefault(); handleScroll(item.toLowerCase()); }} className="hover:text-white">
                             {item}
                         </a>
@@ -48,7 +49,7 @@ const Navbar = () => {
                 </button>
 
                 <div className="flex flex-col items-center justify-center h-full gap-6 text-xl text-gray-300">
-                    {["Home", "About", "Projects", "Contact"].map((item) => (
+                    {navItems.map((item) => (
                         <a key={item} href={`#${item.toLowerCase()}`} onClick={(e) => { e.preventDefault(); handleScroll(item.toLowerCase()); }} className="hover:text-white">
                             {item}
                         </a>
