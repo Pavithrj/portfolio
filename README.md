@@ -1,16 +1,16 @@
-## 🗂️ Table of Contents
+# 🗂️ Table of Contents
 
-- [📌 Portfolio](#-portfolio)
-- [🗂️ Table of Contents](#️-table-of-contents)
-- [🌍 Live Demo](#-live-demo)
-- [✨ Features](#-features)
-- [📸 Screenshots](#-screenshots)
-- [⚙️ Tech Stack](#-tech-stack)
-- [📂 Folder Structure](#-folder-structure)
-- [🛠️ Installation & Setup](#-installation--setup)
-- [🔗 Connect with Me](#-connect-with-me)
+- [�️ Table of Contents](#️-table-of-contents)
+  - [📌 Portfolio](#-portfolio)
+  - [🌍 Live Demo](#-live-demo)
+  - [✨ Features](#-features)
+  - [📸 Screenshots](#-screenshots)
+  - [⚙️ Tech Stack](#️-tech-stack)
+  - [📂 Folder Structure](#-folder-structure)
+  - [🛠️ Installation \& Setup](#️-installation--setup)
+    - [🔗 Connect with Me](#-connect-with-me)
 
-# 📌 Portfolio
+## 📌 Portfolio
 
 A **modern, responsive, and minimalistic** portfolio showcasing my **skills, projects, and expertise** in **React and TailwindCSS**. Built with **Vite**, it ensures fast performance and an elegant UI.
 
