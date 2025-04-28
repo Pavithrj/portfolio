@@ -8,14 +8,13 @@ const Contact = () => {
             <div className="absolute w-56 h-56 bg-blue-500 rounded-full top-1/4 left-1/4 sm:w-72 sm:h-72 opacity-20 blur-3xl"></div>
             <div className="absolute w-56 h-56 bg-purple-500 rounded-full bottom-1/4 right-1/4 sm:w-72 sm:h-72 opacity-20 blur-3xl"></div>
 
-
             <div className="flex flex-col w-full max-w-3xl gap-4 mx-auto text-center">
-                <h2 className="text-2xl font-extrabold leading-tight tracking-wide text-blue-400 duration-500 sm:text-3xl md:text-4xl lg:text-5xl animate-fadeIn">
+                <h2 className="text-3xl font-extrabold leading-tight tracking-wide text-blue-400 duration-500 sm:text-4xl md:text-5xl lg:text-6xl animate-fadeIn">
                     Connect with Me
                 </h2>
 
-                <p className="text-xs text-gray-400 duration-500 animate-fade-in-down animate-fadeIn 2xl:text-lg">
-                    Let's collaborate, build something amazing, or just have a coffee chat! ☕
+                <p className="text-xs md:text-xl text-gray-400 duration-500 animate-fade-in-down animate-fadeIn">
+                    Ping Me Anytime! 🚀
                 </p>
 
                 <form className="flex flex-col gap-6 py-5 duration-500 animate-fadeIn">
@@ -26,7 +25,7 @@ const Contact = () => {
                     <textarea rows="5" placeholder="Your Message" className="p-4 bg-gray-900 rounded-lg resize-none focus:outline-none focus:ring-2 focus:ring-indigo-500" />
 
                     <button className="px-6 py-3 font-semibold transition bg-indigo-600 rounded-lg hover:bg-indigo-700">
-                        Send Message
+                        Submit
                     </button>
                 </form>
 
