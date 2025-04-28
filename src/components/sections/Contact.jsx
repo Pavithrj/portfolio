@@ -13,7 +13,7 @@ const Contact = () => {
                     Connect with Me
                 </h2>
 
-                <p className="text-xs md:text-xl text-gray-400 duration-500 animate-fade-in-down animate-fadeIn">
+                <p className="text-xs text-gray-400 duration-500 md:text-xl animate-fadeIn">
                     Ping Me Anytime! 🚀
                 </p>
 
