@@ -1,14 +1,14 @@
 # 🗂️ Table of Contents
 
 - [�️ Table of Contents](#️-table-of-contents)
-  - [📌 Portfolio](#-portfolio)
-  - [🌍 Live Demo](#-live-demo)
-  - [✨ Features](#-features)
-  - [📸 Screenshots](#-screenshots)
-  - [⚙️ Tech Stack](#️-tech-stack)
-  - [📂 Folder Structure](#-folder-structure)
-  - [🛠️ Installation \& Setup](#️-installation--setup)
-    - [🔗 Connect with Me](#-connect-with-me)
+- [📌 Portfolio](#-portfolio)
+- [🌍 Live Demo](#-live-demo)
+- [✨ Features](#-features)
+- [📸 Screenshots](#-screenshots)
+- [⚙️ Tech Stack](#️-tech-stack)
+- [📂 Folder Structure](#-folder-structure)
+- [🛠️ Installation \& Setup](#️-installation--setup)
+- [🔗 Connect with Me](#-connect-with-me)
 
 ## 📌 Portfolio
 
