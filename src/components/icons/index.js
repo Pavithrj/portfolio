@@ -59,7 +59,7 @@ const iconsData = [
     {
         name: "Material UI",
         svg: MaterialUIIcon,
-    },
+    }
 ];
 
 export default iconsData;
