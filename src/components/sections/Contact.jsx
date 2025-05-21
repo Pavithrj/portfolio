@@ -20,16 +20,16 @@ const Contact = () => {
                 form.current,
                 'a4un2DtiM1gkuoczA'
             )
-            .then(
-                () => {
-                    setSuccess(true);
-                    form.current.reset();
-                },
-                () => {
-                    setSuccess(false);
-                }
-            )
-            .finally(() => setSending(false))
+            .then(() => {
+                setSuccess(true);
+                form.current.reset();
+                setTimeout(() => setSuccess(null), 2000);
+            })
+            .catch(() => {
+                setSuccess(false);
+                setTimeout(() => setSuccess(null), 2000);
+            })
+            .finally(() => setSending(false));
     };
 
     return (
