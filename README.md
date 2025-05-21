@@ -33,19 +33,19 @@ Experience it in action: [Live Demo](https://pavithrj.github.io/portfolio)
 
 | 🧭 Navbar |
 |-|
-| ![Navbar](./src/assets/demo/navbar.png) |
+| ![Navbar](./src/assets/demo/Navbar.png) |
 
 | 🏠 Home |
 |-|
-| ![Home](./src/assets/demo/home.png) |
+| ![Home](./src/assets/demo/Home.png) |
 
 | 👤 About |
 |-|
-| ![About](./src/assets/demo/about.png) |
+| ![About](./src/assets/demo/About.png) |
 
 | 🛠️ Skills |
 |-|
-| ![Skills](./src/assets/demo/skills.png) |
+| ![Skills](./src/assets/demo/Skills.png) |
 
 <!--
 
@@ -77,20 +77,32 @@ Experience it in action: [Live Demo](https://pavithrj.github.io/portfolio)
 Portfolio/
 ├── src/
 │   ├── assets/
-│   │   ├── Home/
+│   │   ├── about/
+│   │   │   └── resume.pdf
+│   │   ├── demo/
+│   │   │   ├── about.png
+│   │   │   ├── home.png
+│   │   │   ├── navbar.png
+│   │   │   └── skills.png
+│   │   ├── home/
 │   │   │   └── hero-pic.png
-│   │   ├── Navbar/
-│   │   │   └── PavithrJainLogo.png
+│   │   ├── navbar/
+│   │   │   └── pj-logo.png
 │   │   ├── Projects/
 │   │   │   ├── imageOne.png
-│   │   │   └── imageTwo.png
-│   │   └── index.js
+│   │   │   ├── imageTwo.png
+│   │   │   ├── index.js
+│   │   │   └── live-calendar.png
 │   ├── components/
 │   │   ├── icons/
-│   │   │   ├── Navbar/
+│   │   │   ├── contact/
+│   │   │   │   ├── GithubIcon.jsx
+│   │   │   │   ├── LinkedInIcon.jsx
+│   │   │   │   └── TelegramIcon.jsx
+│   │   │   ├── navbar/
 │   │   │   │   ├── CloseIcon.jsx
 │   │   │   │   └── HamburgerIcon.jsx
-│   │   │   ├── Skills/
+│   │   │   ├── skills/
 │   │   │   │   ├── CSSIcon.jsx
 │   │   │   │   ├── ExpressJsIcon.jsx
 │   │   │   │   ├── HTMLIcon.jsx
@@ -105,7 +117,6 @@ Portfolio/
 │   │   │   │   └── TailwindCSSIcon.jsx
 │   │   │   └── index.js
 │   │   ├── layout/
-│   │   │   ├── Header.jsx
 │   │   │   ├── Footer.jsx
 │   │   │   └── Navbar.jsx
 │   │   ├── sections/
