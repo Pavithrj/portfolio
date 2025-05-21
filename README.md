@@ -37,7 +37,7 @@ Experience it in action: [Live Demo](https://pavithrj.github.io/portfolio)
 
 | 🏠 Home |
 |-|
-| ![Home](./src/assets/demo/Home.png) |
+| ![Home](./src/assets/demo/home.png) |
 
 | 👤 About |
 |-|
