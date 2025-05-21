@@ -119,7 +119,6 @@ Portfolio/
 │   ├── index.css
 │   └── main.jsx
 ├── .gitignore
-├── dummy.pdf
 ├── eslint.config.js
 ├── index.html
 ├── package-lock.json
