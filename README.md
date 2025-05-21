@@ -45,7 +45,7 @@ Experience it in action: [Live Demo](https://pavithrj.github.io/portfolio)
 
 | 🛠️ Skills |
 |-|
-| ![Skills](./src/assets/demo/Skills.png) |
+| ![Skills](./src/assets/demo/skills.png) |
 
 <!--
 
