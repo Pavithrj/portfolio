@@ -55,14 +55,6 @@ Experience it in action: [Live Demo](https://pavithrj.github.io/portfolio)
 |-|
 | ![Contact](./src/assets/demo/contact.png) |
 
-<!--
-
-| 🔚 Footer |
-|-|
-| ![Footer](./src/assets/demo/footer.png) |
-
--->
-
 ## ⚙️ Tech Stack
 
 ![Vite](https://img.shields.io/badge/Vite-563D7C?style=for-the-badge&logo=vite&logoColor=white)
