@@ -114,6 +114,8 @@ Portfolio/
 │   │   │   ├── Contact.jsx
 │   │   │   └── Skills.jsx
 │   ├── data/
+│   │   ├── projects/
+│   │   │   └── ProjectsData.jsx
 │   ├── pages/
 │   │   ├── AllProjects.jsx
 │   │   └── Portfolio.jsx
