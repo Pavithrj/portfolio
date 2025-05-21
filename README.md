@@ -111,7 +111,7 @@ Portfolio/
 │   │   ├── sections/
 │   │   │   ├── About.jsx
 │   │   │   ├── Projects.jsx
-│   │   │   ├── Contact.jsx
+│   │   │   ├── ScrollRestoration.jsx
 │   │   │   └── Skills.jsx
 │   ├── data/
 │   │   ├── projects/
