@@ -51,11 +51,11 @@ Experience it in action: [Live Demo](https://pavithrj.github.io/portfolio)
 |-|
 | ![Projects](./src/assets/demo/projects.png) |
 
-<!--
-
 | 📞 Contact |
 |-|
 | ![Contact](./src/assets/demo/contact.png) |
+
+<!--
 
 | 🔚 Footer |
 |-|
