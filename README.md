@@ -110,6 +110,8 @@ Portfolio/
 │   │   │   └── Navbar.jsx
 │   │   ├── sections/
 │   │   │   ├── About.jsx
+│   │   │   ├── Contact.jsx
+│   │   │   ├── Home.jsx
 │   │   │   ├── Projects.jsx
 │   │   │   ├── ScrollRestoration.jsx
 │   │   │   └── Skills.jsx
