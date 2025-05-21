@@ -132,22 +132,12 @@ Portfolio/
 
 ### 🧰 Installation Steps
 
-1. **📥 Clone the repository**
-   ```sh
-   git clone https://github.com/your-username/portfolio.git
-   cd portfolio
-   ```
-2. **📦 Install dependencies**
-   ```sh
-   npm install
-   ```
-3. **🚀 Start the development server**
-   ```sh
-   npm run dev
-   ```
-4. **🌐 Open in browser**
-   The application will run at `http://localhost:5173/`
-
+```bash
+git clone https://github.com/Pavithrj/portfolio.git
+cd portfolio
+npm install
+npm run dev
+```
 
 ### 🔗 Connect with Me
 
