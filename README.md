@@ -33,7 +33,7 @@ Experience it in action: [Live Demo](https://pavithrj.github.io/portfolio)
 
 | 🧭 Navbar |
 |-|
-| ![Navbar](./src/assets/demo/Navbar.png) |
+| ![Navbar](./src/assets/demo/navbar.png) |
 
 | 🏠 Home |
 |-|
