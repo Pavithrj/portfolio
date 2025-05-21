@@ -115,6 +115,8 @@ Portfolio/
 │   │   │   └── Skills.jsx
 │   ├── data/
 │   ├── pages/
+│   │   ├── AllProjects.jsx
+│   │   └── Portfolio.jsx
 │   ├── App.jsx
 │   ├── index.css
 │   └── main.jsx
