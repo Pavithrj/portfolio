@@ -41,7 +41,7 @@ Experience it in action: [Live Demo](https://pavithrj.github.io/portfolio)
 
 | 👤 About |
 |-|
-| ![About](./src/assets/demo/About.png) |
+| ![About](./src/assets/demo/about.png) |
 
 | 🛠️ Skills |
 |-|
