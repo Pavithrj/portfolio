@@ -47,11 +47,11 @@ Experience it in action: [Live Demo](https://pavithrj.github.io/portfolio)
 |-|
 | ![Skills](./src/assets/demo/skills.png) |
 
-<!--
-
 | 📂 Projects |
 |-|
 | ![Projects](./src/assets/demo/projects.png) |
+
+<!--
 
 | 📞 Contact |
 |-|
