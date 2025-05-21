@@ -7,7 +7,7 @@
   - [📸 Screenshots](#-screenshots)
   - [⚙️ Tech Stack](#️-tech-stack)
   - [📂 Folder Structure](#-folder-structure)
-  - [🧰 Installation \& Setup](#-installation--setup)
+    - [🧰 Installation \& Setup](#-installation--setup)
     - [🔗 Connect with Me](#-connect-with-me)
 
 ## 📌 Portfolio
@@ -130,7 +130,7 @@ Portfolio/
 └── vite.config.js
 ```
 
-## 🧰 Installation & Setup
+### 🧰 Installation & Setup
 
 1. **📥 Clone the repository**
    ```sh
