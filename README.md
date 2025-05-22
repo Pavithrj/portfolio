@@ -2,7 +2,7 @@
 
 - [🗂️ Table of Contents](#️-table-of-contents)
 - [📌 Portfolio](#-portfolio)
-  - [🌍 Live Demo](#-live-demo)
+- [🌍 Live Demo](#-live-demo)
   - [✨ Features](#-features)
   - [📸 Screenshots](#-screenshots)
   - [⚙️ Tech Stack](#️-tech-stack)
