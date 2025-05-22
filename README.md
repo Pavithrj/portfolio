@@ -8,7 +8,7 @@
 - [⚙️ Tech Stack](#️-tech-stack)
 - [📂 Folder Structure](#-folder-structure)
 - [🧰 Installation Steps](#-installation-steps)
-    - [🔗 Connect with Me](#-connect-with-me)
+  - [🔗 Connect with Me](#-connect-with-me)
 
 ## 📌 Portfolio
 
