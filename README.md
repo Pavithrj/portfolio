@@ -1,6 +1,6 @@
 # 🗂️ Table of Contents
 
-- [🗂️ Table of Contents](#️-table-of-contents)
+
 - [📌 Portfolio](#-portfolio)
 - [🌍 Live Demo](#-live-demo)
 - [✨ Features](#-features)
