@@ -69,6 +69,7 @@ Experience it in action: [Live Demo](https://pavithrj.github.io/portfolio)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-0EA5E9?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
+---
 
 ## 📂 Folder Structure
 
