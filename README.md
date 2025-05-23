@@ -21,6 +21,8 @@ Engineered with a modern tech stack – **ReactJS**, **TailwindCSS**, and **Vite
 
 Experience it in action: [Live Demo](https://pavithrj.github.io/portfolio)
 
+---
+
 ## ✨ Features
 
 - 📱 **Fully Responsive Design** – Ensures a seamless experience across all devices, from desktops to mobile phones.
