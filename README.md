@@ -146,6 +146,8 @@ Portfolio/
 └── vite.config.js
 ```
 
+---
+
 ### 🧰 Installation Steps
 
 ```bash
