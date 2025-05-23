@@ -157,6 +157,8 @@ npm install
 npm run dev
 ```
 
+---
+
 ### 🔗 Connect with Me
 
 [![💼 LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/pavithr-jain)
