@@ -15,6 +15,8 @@ A **modern, responsive, and minimalistic** portfolio showcasing my **skills, pro
 
 Engineered with a modern tech stack – **ReactJS**, **TailwindCSS**, and **Vite** – to ensure a seamless user experience.
 
+---
+
 ## 🌍 Live Demo
 
 Experience it in action: [Live Demo](https://pavithrj.github.io/portfolio)
