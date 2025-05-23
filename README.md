@@ -32,6 +32,8 @@ Experience it in action: [Live Demo](https://pavithrj.github.io/portfolio)
 - 🔗 **Social Media Links** – Quick access to LinkedIn, GitHub, and other social profiles.
 - 💬 **Interactive Contact Form** – Lets users send messages directly via a beautiful, validated contact form.
 
+---
+
 ## 📸 Screenshots
 
 | 🧭 Navbar |
