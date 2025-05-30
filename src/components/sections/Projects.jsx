@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import ProjectsData from './../../data/projects/ProjectsData';
 
 const Projects = () => {
+    console.log(ProjectsData);
+
     const [imageLoadedStates, setImageLoadedStates] = useState({});
     const [selectedCategory, setSelectedCategory] = useState("Frontend");
     const [visibleCount, setVisibleCount] = useState(8);
