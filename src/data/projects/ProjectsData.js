@@ -8,6 +8,13 @@ const projectsData = [
         link: "https://pavithrj.github.io/live-calendar/",
         category: "Frontend",
     },
+    {
+        title: "ChatWise",
+        description: "A responsive chat UI prototype built with React, focusing on clean design, message flow, and usability.",
+        image: images.chatwise,
+        link: "https://pavithrj.github.io/chatwise",
+        category: "Frontend",
+    },
     // {
     //     title: "Task Manager API",
     //     description: "A RESTful API for task management.",
