@@ -1,5 +1,4 @@
 import Navbar from './../components/layout/Navbar';
-import Footer from './../components/layout/Footer';
 
 import Home from '../components/sections/Home';
 import About from '../components/sections/About';
@@ -11,15 +10,13 @@ const Portfolio = () => {
     const sections = [Home, About, Skills, Projects, Contact];
 
     return (
-        <div>
+        <>
             <Navbar />
 
             {sections.map((Section, index) => (
                 <Section key={index} />
             ))}
-
-            {/* <Footer /> */}
-        </div>
+        </>
     )
 };
 
