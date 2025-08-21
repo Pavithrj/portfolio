@@ -10,7 +10,7 @@ const projectsData = [
     },
     {
         title: "ChatWise",
-        description: "A responsive chat UI prototype built with React, focusing on clean design, message flow, and usability.",
+        description: "Responsive chat UI in React with clean design and smooth message flow.",
         image: images.chatwise,
         link: "https://pavithrj.github.io/chatwise",
         category: "Frontend",
