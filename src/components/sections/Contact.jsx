@@ -47,9 +47,9 @@ const Contact = () => {
                 </p>
 
                 <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-6 py-5 duration-500 animate-fadeIn">
-                    <input name="name" type="text" placeholder="Your Name" required className="p-4 bg-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+                    <input name="name" type="text" placeholder="Your Name" autoComplete="name" required className="p-4 bg-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" />
 
-                    <input name="email" type="email" placeholder="Your Email" required className="p-4 bg-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+                    <input name="email" type="email" placeholder="Your Email" autoComplete="email" required className="p-4 bg-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" />
 
                     <textarea name="message" rows="5" placeholder="Your Message" required className="p-4 bg-gray-900 rounded-lg resize-none focus:outline-none focus:ring-2 focus:ring-indigo-500" />
 
