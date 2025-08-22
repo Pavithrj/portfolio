@@ -6,7 +6,7 @@ const Hero = () => {
             <div className="absolute w-56 h-56 bg-blue-500 rounded-full top-1/4 left-1/4 sm:w-72 sm:h-72 opacity-20 blur-3xl"></div>
             <div className="absolute w-56 h-56 bg-purple-500 rounded-full bottom-1/4 right-1/4 sm:w-72 sm:h-72 opacity-20 blur-3xl"></div>
 
-            <div className="flex flex-col items-center gap-8 justify-between w-full mx-auto max-w-[1250px] lg:flex-row">
+            <div className="flex flex-col-reverse items-center gap-8 justify-between w-full mx-auto max-w-[1250px] lg:flex-row">
                 <div className="flex flex-col gap-4 w-full lg:w-[60%] mx-auto">
                     <h1 className="text-3xl font-extrabold leading-tight tracking-wide duration-500 sm:text-4xl md:text-5xl lg:text-6xl animate-fadeInDelay">
                         Hi, I'm <span className="text-blue-500">Pavithr Jain</span>
@@ -17,12 +17,24 @@ const Hero = () => {
                     </p>
 
                     <div className="flex flex-row justify-center gap-4 sm:gap-6 animate-fadeInDelay">
-                        <a href="#projects" className="p-3 text-sm font-semibold text-white transition-transform duration-300 transform rounded-lg shadow-xl sm:px-6 sm:text-lg bg-gradient-to-r from-blue-500 to-purple-500 hover:scale-105 hover:shadow-2xl">
-                            🚀 View Projects
+                        <a href="#projects" className="flex items-center gap-2 p-3 text-sm font-semibold text-white transition-transform duration-300 transform rounded-lg shadow-xl sm:px-6 sm:text-lg bg-gradient-to-r from-blue-500 to-purple-500 hover:scale-105 hover:shadow-2xl">
+                            <div>
+                                🚀
+                            </div>
+
+                            <div>
+                                View Projects
+                            </div>
                         </a>
 
-                        <a href="#contact" className="p-3 text-sm font-semibold text-white transition-transform duration-300 transform border-2 border-blue-500 rounded-lg shadow-xl sm:px-6 sm:text-lg hover:bg-blue-500 hover:scale-105 hover:shadow-2xl">
-                            📩 Contact Me
+                        <a href="#contact" className="flex items-center gap-2 p-3 text-sm font-semibold text-white transition-transform duration-300 transform border-2 border-blue-500 rounded-lg shadow-xl sm:px-6 sm:text-lg hover:bg-blue-500 hover:scale-105 hover:shadow-2xl">
+                            <div>
+                                📩
+                            </div>
+
+                            <div>
+                                Contact Me
+                            </div>
                         </a>
                     </div>
                 </div>
