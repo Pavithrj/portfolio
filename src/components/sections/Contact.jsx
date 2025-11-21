@@ -53,7 +53,7 @@ const Contact = () => {
 
                     <textarea name="message" rows="5" placeholder="Your Message" required className="p-4 bg-gray-900 rounded-lg resize-none focus:outline-none focus:ring-2 focus:ring-indigo-500" />
 
-                    <button disabled={sending} className="px-6 py-3 font-semibold transition bg-indigo-600 rounded-lg hover:bg-indigo-700 disabled:opacity-50">
+                    <button type="button" disabled={sending} className="px-6 py-3 font-semibold transition bg-indigo-600 rounded-lg hover:bg-indigo-700 disabled:opacity-50">
                         {sending ? "Sending..." : "Submit"}
                     </button>
                 </form>
@@ -71,15 +71,15 @@ const Contact = () => {
                 }
 
                 <div className="flex justify-center gap-6 duration-500 animate-fadeIn">
-                    <a href="https://github.com/Pavithrj" target="_blank" rel="noopener noreferrer" className="transition hover:scale-110">
+                    <a href="https://github.com/Pavithrj" target="_blank" rel="noopener noreferrer" className="transition hover:scale-110" aria-label="GitHub">
                         <GithubInIcon />
                     </a>
 
-                    <a href="https://www.linkedin.com/in/pavithr-jain/" target="_blank" rel="noopener noreferrer" className="transition hover:scale-110">
+                    <a href="https://www.linkedin.com/in/pavithr-jain/" target="_blank" rel="noopener noreferrer" className="transition hover:scale-110" aria-label="LinkedIn">
                         <LinkedInIcon />
                     </a>
 
-                    <a href="https://t.me/Jarvis_of_Friday" target="_blank" rel="noopener noreferrer" className="transition hover:scale-110">
+                    <a href="https://t.me/Jarvis_of_Friday" target="_blank" rel="noopener noreferrer" className="transition hover:scale-110" aria-label="Telegram">
                         <TelegramIcon />
                     </a>
                 </div>
