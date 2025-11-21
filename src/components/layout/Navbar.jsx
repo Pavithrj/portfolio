@@ -38,13 +38,13 @@ const Navbar = () => {
                     ))}
                 </div>
 
-                <button className="md:hidden" onClick={() => setMenuOpen(true)}>
+                <button type="button" aria-label="Open menu" className="md:hidden" onClick={() => setMenuOpen(true)}>
                     <HamburgerIcon />
                 </button>
             </nav>
 
             <div className={`fixed top-0 right-0 w-full h-full bg-gray-900 transform transition-transform duration-300 ${menuOpen ? "translate-x-0" : "translate-x-full"}`}>
-                <button className="absolute top-4 right-4" onClick={() => setMenuOpen(false)}>
+                <button type="button" aria-label="Close menu" className="absolute top-4 right-4" onClick={() => setMenuOpen(false)}>
                     <CloseIcon />
                 </button>
 
