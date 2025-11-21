@@ -151,9 +151,16 @@ Portfolio/
 ### 🧰 Installation Steps
 
 ```bash
+# Clone the repository
 git clone https://github.com/Pavithrj/portfolio.git
+
+# Navigate to the project folder
 cd portfolio
+
+# Install dependencies
 npm install
+
+# Start the development server
 npm run dev
 ```
 
