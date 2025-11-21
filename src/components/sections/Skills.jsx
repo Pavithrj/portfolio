@@ -53,7 +53,7 @@ const Skills = () => {
                 </div>
 
                 {hideSkills &&
-                    <button onClick={handleShowAllSkills} className="px-4 py-2 mx-auto text-sm font-semibold text-white transition-all duration-500 bg-indigo-600 rounded-lg w-fit md:px-6 hover:bg-indigo-500 xl:hidden">
+                    <button type="button" onClick={handleShowAllSkills} className="px-4 py-2 mx-auto text-sm font-semibold text-white transition-all duration-500 bg-indigo-600 rounded-lg w-fit md:px-6 hover:bg-indigo-500 xl:hidden">
                         Show More
                     </button>
                 }
