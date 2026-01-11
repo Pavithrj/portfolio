@@ -8,12 +8,10 @@ function App() {
         <>
             <ScrollRestoration />
 
-            <main>
-                <Routes>
-                    <Route path="/portfolio" element={<Portfolio />} />
-                    <Route path="/portfolio/projects" element={<AllProjects />} />
-                </Routes>
-            </main>
+            <Routes>
+                <Route path="/portfolio" element={<Portfolio />} />
+                <Route path="/portfolio/projects" element={<AllProjects />} />
+            </Routes>
         </>
     )
 };
